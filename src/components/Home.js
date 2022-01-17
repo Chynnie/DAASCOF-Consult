@@ -13,7 +13,9 @@ const Home = () => {
             'Construction Designs',
             'Building Constructions',
             'Highway Constructions',
-            'Drainage Constructions',
+            // 'Drainage Constructions',
+            'Building Maintenance',
+            'Building Renovation',
           ]}
           typeSpeed={50}
           backSpeed={50}

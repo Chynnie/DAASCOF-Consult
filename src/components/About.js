@@ -12,7 +12,8 @@ function About() {
         electrical designs. <br />
         <br />
         Building and maintaining good relationships with our clients and
-        contractors, is the core value of our business.
+        contractors, and the safety of our workers is the core value of our
+        business.
       </p>
     </div>
   );
