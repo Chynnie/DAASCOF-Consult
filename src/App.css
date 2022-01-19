@@ -19,6 +19,11 @@ body {
   /* height: 4rem; */
 }
 
+.navbar {
+  height: auto;
+  top: 0.625rem;
+}
+
 /***** Nav Links *****/
 nav a.nav-link {
   /* font-weight: 500; */
@@ -189,6 +194,42 @@ nav ul li {
   padding: 0.625rem;
   margin-bottom: 1.875rem;
   background: var(--primary-white);
+}
+
+/***** Projects  *****/
+.projects {
+  text-align: center;
+  padding-bottom: 2rem;
+  background: var(--primary-white);
+}
+
+.projects h1 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.proj-img {
+  width: 54.5rem;
+  height: 45rem;
+}
+
+@media screen and (max-width: 720px) {
+  .proj-img {
+    width: 280px;
+    height: 231px;
+  }
+}
+
+/***** Contact Us  *****/
+
+.contact-us {
+  text-align: center;
+  padding-bottom: 2rem;
+  background: var(--primary-grey);
+}
+.contact-us h1 {
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
 /* .App {

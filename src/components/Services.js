@@ -4,6 +4,7 @@ import {
   faPencilRuler,
   faHome,
   faRoad,
+  faTruckPickup,
   faTools,
   faCogs,
 } from '@fortawesome/free-solid-svg-icons';
@@ -23,7 +24,7 @@ function Services() {
                   size="2x"
                 />
               </div>
-              <h3>Construction Designs</h3>
+              <h3>Engineering Designs</h3>
               <p>
                 Development of architectural, structural, mechanical and
                 electrical designs for building constructions, and highway
@@ -40,7 +41,8 @@ function Services() {
               <h3>Building Construction</h3>
               <p>
                 Construction of high quality building structures, from
-                foundation to finishing
+                foundation to roofing, as well as post-construction (interior,
+                installing fixtures & finishing)
               </p>
             </div>
           </div>
@@ -58,9 +60,23 @@ function Services() {
           <div className="col-md-4 col-sm-6">
             <div className="box">
               <div className="circle">
+                <FontAwesomeIcon
+                  className="icon"
+                  icon={faTruckPickup}
+                  size="2x"
+                />
+              </div>
+              <h3>Procurement</h3>
+              <p>Procurement of construction materials</p>
+            </div>
+          </div>
+
+          <div className="col-md-4 col-sm-6">
+            <div className="box">
+              <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faTools} size="2x" />
               </div>
-              <h3>Building & Highway Maintenance</h3>
+              <h3>Construction Maintenance</h3>
               <p>Maintenace of building and road constructions</p>
             </div>
           </div>
